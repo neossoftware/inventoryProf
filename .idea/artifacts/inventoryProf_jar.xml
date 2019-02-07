@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="inventoryProf:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/inventoryProf_jar</output-path>
+    <root id="archive" name="inventoryProf.jar">
+      <element id="module-output" name="inventoryProf" />
+    </root>
+  </artifact>
+</component>

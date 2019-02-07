@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.collections.FXCollections?>
+
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="86.0" layoutY="56.0" text="ID Producto" />
+        <Label layoutX="50.0" layoutY="115.0" text="Nombre Producto" />
+        <Label layoutX="95.0" layoutY="183.0" text="Proveedor" />
+        <Label layoutX="114.0" layoutY="240.0" text="Marca" />
+        <TextField layoutX="178.0" layoutY="51.0" />
+        <TextField layoutX="178.0" layoutY="110.0" prefHeight="27.0" prefWidth="234.0" />
+        <ComboBox layoutX="178.0" layoutY="178.0" prefHeight="27.0" prefWidth="234.0" >
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:id="1" fx:value="Apple" />
+                    <String fx:id="2" fx:value="Acer" />
+                    <String fx:id="3" fx:value="Samsung" />
+                </FXCollections>
+            </items>
+        </ComboBox>
+        <ComboBox layoutX="178.0" layoutY="244.0" prefHeight="27.0" prefWidth="234.0" >
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:id="a" fx:value="Apple Provider" />
+                    <String fx:id="b" fx:value="Mercado Libre" />
+                    <String fx:id="c" fx:value="Computadoras ABC SA. DE CV" />
+                </FXCollections>
+            </items>
+        </ComboBox>
+        <Button layoutX="178.0" layoutY="324.0" mnemonicParsing="false" text="Guardar" />
+        <Button layoutX="278.0" layoutY="324.0" mnemonicParsing="false" text="Cancelar" />
+    </children>
+</AnchorPane>
+

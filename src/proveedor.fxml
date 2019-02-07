@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="71.0" layoutY="60.0" text="Id Proveedor" />
+      <Label layoutX="33.0" layoutY="124.0" text="Nombre Proveedor" />
+      <Label layoutX="92.0" layoutY="183.0" text="Direccion" />
+      <Label layoutX="94.0" layoutY="242.0" text="Teléfono" />
+      <TextField layoutX="173.0" layoutY="55.0" prefHeight="27.0" prefWidth="236.0" />
+      <TextField layoutX="173.0" layoutY="119.0" prefHeight="27.0" prefWidth="236.0" />
+      <TextField layoutX="173.0" layoutY="178.0" prefHeight="27.0" prefWidth="236.0" />
+      <TextField layoutX="173.0" layoutY="237.0" prefHeight="27.0" prefWidth="236.0" />
+      <Button layoutX="173.0" layoutY="305.0" mnemonicParsing="false" text="Guardar" />
+      <Button layoutX="271.0" layoutY="305.0" mnemonicParsing="false" text="Cancelar" />
+   </children>
+</AnchorPane>
